@@ -3,205 +3,164 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marwan Ayman | Healthcare IT Portfolio</title>
-  <meta name="description" content="Professional portfolio for Marwan Ayman, Healthcare IT Engineer specialized in PACS, RIS, HIS, HL7, DICOM, SQL Server, APIs, and BPMN workflows." />
+  <title>Marwan Ayman | Healthcare IT Engineer</title>
+  <meta name="description" content="Professional portfolio of Marwan Ayman, Healthcare IT Engineer specialized in PACS, RIS, HIS, HL7, DICOM, SQL Server, and healthcare integrations." />
+  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="navbar container">
-      <a class="brand" href="#home">Marwan<span>Ayman</span></a>
-      <button class="menu-toggle" aria-label="Open menu">☰</button>
-      <div class="nav-links">
+    <nav class="nav container">
+      <a href="#home" class="logo">Marwan<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#research">Research</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="hero container">
-      <div class="hero-content reveal">
-        <p class="eyebrow">Healthcare IT • PACS • HL7/DICOM Integration</p>
+    <section id="home" class="hero container reveal">
+      <div class="hero-content">
+        <p class="eyebrow">Healthcare IT • PACS • Integration</p>
         <h1>Marwan Ayman</h1>
-        <h2>Healthcare IT Engineer & PACS Integration Specialist</h2>
+        <h2>Healthcare IT Engineer specialized in PACS, RIS, HIS, HL7 and DICOM.</h2>
         <p class="hero-text">
-          I design, support, and integrate medical imaging workflows connecting HIS, RIS, PACS, modalities, and AI-assisted radiology systems using healthcare standards such as HL7 and DICOM.
+          I help healthcare organizations operate reliable medical imaging workflows by supporting PACS environments,
+          system integrations, SQL troubleshooting, Windows Server deployments, and healthcare interoperability standards.
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="assets/Marwan-Ayman-CV.pdf" target="_blank">Download CV</a>
-        </div>
-        <div class="hero-links">
-          <a href="https://www.linkedin.com/in/engmarwanayman/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://github.com/Marooo-Ayman10" target="_blank" rel="noopener">GitHub</a>
-          <a href="mailto:your-email@example.com">Email</a>
+          <a class="btn primary" href="assets/Marwan-Ayman-CV.pdf" download>Download CV</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
         </div>
       </div>
-      <div class="hero-card reveal">
-        <div class="status-dot"></div>
-        <h3>Professional Focus</h3>
-        <ul>
-          <li>HIS/RIS/PACS Integration</li>
-          <li>HL7 ORM/O01 Mapping</li>
-          <li>DICOM Workflow Support</li>
-          <li>SQL Server Troubleshooting</li>
-          <li>BPMN 2.0 Process Modeling</li>
-          <li>Healthcare API Deployment</li>
-        </ul>
+      <div class="hero-card">
+        <div class="avatar">MA</div>
+        <h3>Healthcare IT Engineer</h3>
+        <p>PACS • RIS • HIS • HL7 • DICOM</p>
+        <div class="quick-stats">
+          <div><strong>18+</strong><span>Sites Supported</span></div>
+          <div><strong>HL7</strong><span>Integration</span></div>
+          <div><strong>PACS</strong><span>Medical Imaging</span></div>
+        </div>
       </div>
     </section>
 
     <section id="about" class="section container reveal">
-      <div class="section-heading">
-        <p>About</p>
-        <h2>Building reliable digital healthcare workflows.</h2>
+      <div class="section-title">
+        <p>About Me</p>
+        <h2>Building reliable healthcare technology workflows.</h2>
       </div>
       <div class="about-grid">
         <p>
-          I am a Healthcare IT Engineer focused on medical imaging systems, PACS administration, and interoperability between hospital systems. My work involves supporting radiology operations, troubleshooting integration issues, and improving the flow of patient, order, image, and report data across clinical systems.
+          I am a Healthcare IT Engineer focused on medical imaging systems and healthcare interoperability.
+          My work includes supporting PACS/RIS environments, handling HIS integration issues, troubleshooting HL7 messages,
+          working with DICOM workflows, and assisting hospitals in maintaining smooth radiology operations.
         </p>
         <p>
-          My technical background combines healthcare standards, backend APIs, database analysis, infrastructure support, and business process modeling. I am especially interested in AI-enabled radiology workflows, automation, and healthcare digital transformation.
+          I also have hands-on experience with SQL Server, Windows Server, IIS, VMware environments, API deployment,
+          and technical documentation. My goal is to grow as a Healthcare Integration Engineer and PACS/RIS specialist.
         </p>
       </div>
     </section>
 
     <section id="skills" class="section container reveal">
-      <div class="section-heading">
-        <p>Skills</p>
-        <h2>Technical toolkit</h2>
+      <div class="section-title">
+        <p>Technical Skills</p>
+        <h2>Tools and technologies I work with.</h2>
       </div>
       <div class="skills-grid">
-        <article class="skill-card">
-          <h3>Healthcare Systems</h3>
-          <span>HIS</span><span>RIS</span><span>PACS</span><span>Synapse PACS</span><span>Radiology Workflow</span>
-        </article>
-        <article class="skill-card">
-          <h3>Integration Standards</h3>
-          <span>HL7 v2.x</span><span>ORM^O01</span><span>DICOM</span><span>MWL</span><span>Accession Number</span>
-        </article>
-        <article class="skill-card">
-          <h3>Development</h3>
-          <span>C#</span><span>ASP.NET Core</span><span>REST APIs</span><span>JWT</span><span>Python</span><span>C++</span>
-        </article>
-        <article class="skill-card">
-          <h3>Database & Infrastructure</h3>
-          <span>SQL Server</span><span>SSMS</span><span>IIS</span><span>Windows Server</span><span>VMware ESXi</span>
-        </article>
-        <article class="skill-card">
-          <h3>Modeling & Documentation</h3>
-          <span>BPMN 2.0</span><span>Camunda</span><span>Process Mapping</span><span>Technical Documentation</span>
-        </article>
-        <article class="skill-card">
-          <h3>Soft Skills</h3>
-          <span>Problem Solving</span><span>Client Support</span><span>Team Collaboration</span><span>Field Implementation</span>
-        </article>
+        <div class="skill-card"><h3>Healthcare IT</h3><p>PACS, RIS, HIS, Medical Imaging Workflows, Radiology Operations</p></div>
+        <div class="skill-card"><h3>Interoperability</h3><p>HL7 v2.x, DICOM, ORM Messages, Accession Number, Integration Troubleshooting</p></div>
+        <div class="skill-card"><h3>Databases</h3><p>SQL Server, SSMS, Queries, Stored Procedures, Data Validation</p></div>
+        <div class="skill-card"><h3>Backend & APIs</h3><p>C#, ASP.NET Core, .NET APIs, JWT Authentication, IIS Deployment</p></div>
+        <div class="skill-card"><h3>Infrastructure</h3><p>Windows Server, VMware ESXi, IIS, Networking Basics, Service Monitoring</p></div>
+        <div class="skill-card"><h3>Programming</h3><p>Python, C++, JavaScript, HTML, CSS, Technical Problem Solving</p></div>
       </div>
     </section>
 
     <section id="experience" class="section container reveal">
-      <div class="section-heading">
+      <div class="section-title">
         <p>Experience</p>
-        <h2>Professional timeline</h2>
+        <h2>Professional background.</h2>
       </div>
       <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-date">Jul 2025 — Present</div>
-          <div class="timeline-content">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
             <h3>Junior Healthcare IT Engineer — PACS / HCIT</h3>
-            <p>
-              Supporting PACS and healthcare integration projects across hospitals and private imaging sites, including radiology workflow support, troubleshooting, deployment assistance, and interoperability testing.
-            </p>
+            <p class="muted">Fujifilm Healthcare • July 2025 – Present</p>
             <ul>
-              <li>Worked with HIS/RIS/PACS integration scenarios using HL7 and DICOM.</li>
-              <li>Supported clinical sites including university, military, and private hospitals.</li>
-              <li>Analyzed SQL Server records and integration logs to identify operational issues.</li>
+              <li>Support PACS/RIS environments across hospital and private radiology sites.</li>
+              <li>Troubleshoot HIS/RIS/PACS integration issues using HL7 and DICOM workflows.</li>
+              <li>Work with SQL Server, Windows Server, IIS, VMware, and medical imaging applications.</li>
+              <li>Assist with deployment, configuration, testing, and technical documentation.</li>
             </ul>
           </div>
-        </article>
+        </div>
       </div>
     </section>
 
     <section id="projects" class="section container reveal">
-      <div class="section-heading">
-        <p>Projects</p>
-        <h2>Featured work</h2>
+      <div class="section-title">
+        <p>Featured Projects</p>
+        <h2>Selected technical work.</h2>
       </div>
       <div class="projects-grid">
-        <article class="project-card featured">
-          <div class="project-top">
-            <span>BPMN • Healthcare</span>
-            <a href="https://github.com/Marooo-Ayman10" target="_blank" rel="noopener">GitHub</a>
-          </div>
-          <h3>AI-Enabled Radiology Workflow</h3>
-          <p>
-            A BPMN 2.0 model describing the full radiology journey from patient registration and imaging order creation to DICOM study archiving, AI analysis, radiologist review, and final report delivery.
-          </p>
-          <div class="tags"><span>BPMN</span><span>HIS</span><span>RIS</span><span>PACS</span><span>AI Engine</span></div>
-        </article>
-
         <article class="project-card">
-          <div class="project-top"><span>HL7 Integration</span><a href="https://github.com/Marooo-Ayman10" target="_blank" rel="noopener">GitHub</a></div>
-          <h3>Ibn-Sina HIS ↔ Fuji RIS/PACS Integration</h3>
-          <p>HL7 ORM order mapping, accession number flow, destination branch mapping, and RIS booking visibility troubleshooting.</p>
-          <div class="tags"><span>HL7</span><span>ORM^O01</span><span>Mirth</span><span>SQL</span></div>
+          <h3>HIS ↔ RIS ↔ PACS Integration</h3>
+          <p>Healthcare integration workflow connecting hospital information systems with radiology and imaging platforms using HL7 and DICOM concepts.</p>
+          <div class="tags"><span>HL7</span><span>DICOM</span><span>PACS</span><span>RIS</span></div>
         </article>
-
         <article class="project-card">
-          <div class="project-top"><span>.NET API</span><a href="https://github.com/Marooo-Ayman10" target="_blank" rel="noopener">GitHub</a></div>
+          <h3>Ibn Sina HIS ↔ Fuji PACS Troubleshooting</h3>
+          <p>Analysis and troubleshooting of HL7 ORM order visibility problems, message mapping, destination fields, and RIS booking request behavior.</p>
+          <div class="tags"><span>ORM O01</span><span>Mirth</span><span>SQL Server</span></div>
+        </article>
+        <article class="project-card">
           <h3>Requests API Deployment</h3>
-          <p>.NET 8 API with JWT authentication, SQL Server connection, IIS/Kestrel hosting, and endpoint testing for patient and request saving.</p>
-          <div class="tags"><span>.NET 8</span><span>JWT</span><span>IIS</span><span>SQL Server</span></div>
+          <p>.NET API deployment with JWT authentication, SQL Server connection, IIS hosting, and endpoint testing for patient and request operations.</p>
+          <div class="tags"><span>.NET</span><span>JWT</span><span>IIS</span><span>SQL</span></div>
         </article>
-
         <article class="project-card">
-          <div class="project-top"><span>Process Design</span><a href="https://github.com/Marooo-Ayman10" target="_blank" rel="noopener">GitHub</a></div>
-          <h3>Hospital Information System BPMN</h3>
-          <p>Full hospital process model showing patient, receptionist, doctor, nurse, finance, admin, and examination center interactions.</p>
-          <div class="tags"><span>BPMN 2.0</span><span>Gateways</span><span>Message Flows</span><span>Camunda</span></div>
+          <h3>PACS Support Documentation</h3>
+          <p>Technical documentation for PACS troubleshooting, server configuration, modality workflow support, and issue escalation steps.</p>
+          <div class="tags"><span>PACS</span><span>Windows Server</span><span>Support</span></div>
         </article>
       </div>
     </section>
 
-    <section id="research" class="section container reveal">
-      <div class="section-heading">
-        <p>Research</p>
-        <h2>Academic and professional interests</h2>
+    <section class="section container reveal">
+      <div class="section-title">
+        <p>Research & Academic Interests</p>
+        <h2>Healthcare technology, AI, and digital transformation.</h2>
       </div>
-      <div class="research-list">
-        <article>
-          <h3>AI-Driven Personalization in Egyptian Private Hospitals</h3>
-          <p>Research interest in AI, customer experience, healthcare service quality, and digital engagement.</p>
-        </article>
-        <article>
-          <h3>Healthcare Process Modeling</h3>
-          <p>Using BPMN to document complex hospital processes and clarify interaction between departments and systems.</p>
-        </article>
-        <article>
-          <h3>Medical Imaging Interoperability</h3>
-          <p>Focus on standards-based communication between HIS, RIS, PACS, modalities, and reporting systems.</p>
-        </article>
+      <div class="research-box">
+        <p>
+          Research interest: The role of AI-driven personalization in enhancing customer experience in Egyptian private hospitals,
+          with focus on healthcare service quality, digital engagement, and intelligent healthcare systems.
+        </p>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section container reveal">
-      <div>
-        <p class="eyebrow">Contact</p>
-        <h2>Let’s build better healthcare systems.</h2>
-        <p>For collaborations, opportunities, or technical discussions, you can reach me through LinkedIn, GitHub, or email.</p>
-      </div>
+    <section id="contact" class="section container reveal">
       <div class="contact-card">
-        <a href="mailto:your-email@example.com">your-email@example.com</a>
-        <a href="https://www.linkedin.com/in/engmarwanayman/" target="_blank" rel="noopener">linkedin.com/in/engmarwanayman</a>
-        <a href="https://github.com/Marooo-Ayman10" target="_blank" rel="noopener">github.com/Marooo-Ayman10</a>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>Available for Healthcare IT, PACS/RIS, integration, and technical support opportunities.</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/engmarwanayman/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Marooo-Ayman10" target="_blank">GitHub</a>
+          <a href="mailto:your-email@example.com">Email</a>
+        </div>
       </div>
     </section>
   </main>

@@ -1,14 +1,14 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-const year = document.querySelector('#year');
+const menuBtn = document.getElementById('menuBtn');
+const navLinks = document.getElementById('navLinks');
+const year = document.getElementById('year');
 
 year.textContent = new Date().getFullYear();
 
-menuToggle.addEventListener('click', () => {
+menuBtn.addEventListener('click', () => {
   navLinks.classList.toggle('open');
 });
 
-document.querySelectorAll('.nav-links a').forEach(link => {
+navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
@@ -18,4 +18,4 @@ const observer = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.12 });
 
-document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
